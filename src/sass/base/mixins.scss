@@ -1,0 +1,26 @@
+@use "/src/sass/base/variables.scss" as *;
+
+@mixin title {
+    font-weight: 800;
+    color: $light;
+}
+
+@mixin button_portfolio {
+    border-radius: 4px;
+    width: 204px;
+    height: 58px;
+    background: $button;
+}
+
+@mixin button_contact {
+    border: 1px solid $light;
+    border-radius: 5px;
+    width: 157px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #fff;
+    background-color: #19191B;
+}
