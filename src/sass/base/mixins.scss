@@ -7,8 +7,11 @@
 
 @mixin button_portfolio {
     border-radius: 4px;
-    width: 204px;
-    height: 58px;
+    font-weight: 700;
+    font-size: 20px;
+    color: $light;
+    text-align: center;
+    align-items: center;
     background: $blue;
 }
 
@@ -23,4 +26,10 @@
     text-align: center;
     color: #fff;
     background-color: #19191B;
+}
+
+@mixin button-container {
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
 }

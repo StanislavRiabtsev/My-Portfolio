@@ -14,3 +14,18 @@
 .btn-port {
     @include button_portfolio;
 }
+
+.btn-con-r {
+    @include button-container;
+    background: $red-con;
+}
+
+.btn-con-y {
+    @include button-container;
+    background: $yellow-con;
+}
+
+.btn-con-g {
+    @include button-container;
+    background: $green-con;
+}
