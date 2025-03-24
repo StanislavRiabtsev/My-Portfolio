@@ -3,6 +3,12 @@
 
 .btn-cont {
     @include button_contact;
+
+    &:hover {
+        color: #19191B;
+        border: 1px solid #19191B;
+        background-color: $light;
+    }
 }
 
 .btn-port {

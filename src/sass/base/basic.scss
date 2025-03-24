@@ -31,30 +31,17 @@ img {
 }
 
 html {
-    font-family: "Barlow", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #19191B;
+    background: url(/src/img/bg/bg.png);
 }
 
 .container {
+    max-width: 1200px;
     width: 100%;
-    padding: 0 10px;
-    position: relative;
-}
-
-@media screen and (min-width:768px) {
-    .container {
-        max-width: 720px;
-        padding: 0;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width:1440px) {
-    .container {
-        max-width: 1200px;
-    }
+    margin: 0 auto;
+    padding-inline: 10%;
 }

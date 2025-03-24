@@ -1,3 +1,5 @@
+@use "/src/sass/base/variables.scss" as *;
+
 .navigation {
     margin-top: 34px;
 
@@ -11,13 +13,22 @@
         justify-content: space-between;
         align-items: center;
         gap: 20px;
+    }
 
-        a {
-            text-decoration: none;
-            font-weight: 400;
-            font-size: 18px;
-            text-align: right;
-            color: rgba(255, 255, 255, 0.7);
+    &__list {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__item {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: right;
+        color: rgba(255, 255, 255, 0.7);
+
+        &:active {
+            color: $blue;
         }
     }
 }
