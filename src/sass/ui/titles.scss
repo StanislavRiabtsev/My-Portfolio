@@ -11,3 +11,11 @@
     @include title;
     font-size: 60px;
 }
+
+.title-h3 {
+    @include title;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -0.03em;
+    text-align: center;
+}

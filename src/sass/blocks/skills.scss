@@ -1,0 +1,41 @@
+@use "/src/sass/base/variables.scss" as *;
+
+.skills {
+    margin-top: 260px;
+
+    &__grid {
+        margin-top: 110px;
+        display: grid;
+        grid-template-columns: repeat(3, 384px);
+        grid-template-rows: repeat(2, 300px);
+        column-gap: 24px;
+        row-gap: 24px;
+    }
+
+    &__list {
+        padding: 48px 43px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &__text {
+        color: $light;
+        text-align: center;
+    }
+
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 69px;
+        height: 69px;
+        border-radius: 100%;
+        background-color: $yellow;
+    }
+}
