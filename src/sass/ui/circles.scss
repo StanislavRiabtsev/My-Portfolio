@@ -1,0 +1,32 @@
+@use "/src/sass/base/mixins.scss" as *;
+@use "/src/sass/base/variables.scss" as *;
+
+.circle-html {
+    @include circle-skills;
+    background-color: $html;
+}
+
+.circle-css {
+    @include circle-skills;
+    background-color: $css;
+}
+
+.circle-js {
+    @include circle-skills;
+    background-color: $js;
+}
+
+.circle-git {
+    @include circle-skills;
+    background-color: $git;
+}
+
+.circle-sass {
+    @include circle-skills;
+    background-color: $sass;
+}
+
+.circle-node {
+    @include circle-skills;
+    background-color: $node;
+}

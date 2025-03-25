@@ -33,3 +33,9 @@
     width: 15px;
     height: 15px;
 }
+
+@mixin circle-skills {
+    width: 69px;
+    height: 69px;
+    border-radius: 100%;
+}
