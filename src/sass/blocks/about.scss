@@ -7,9 +7,9 @@
     &__grid {
         margin-top: 188px;
         display: grid;
-        grid-template-columns: repeat(3, 282px);
+        grid-template-columns: repeat(3, 300px);
         grid-template-rows: repeat(2, 200px);
-        column-gap: 125px;
+        column-gap: 98px;
         row-gap: 70px;
         padding: 0 52px;
     }
@@ -24,7 +24,7 @@
         background-color: #252526;
         padding: 20px;
         border-radius: 8px;
-        width: 282px;
+        width: 300px;
         height: 200px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
         font-family: monospace;
@@ -36,6 +36,13 @@
         white-space: pre;
         margin: 0;
         text-align: left;
+    }
+
+    &__add {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     &__orange {
