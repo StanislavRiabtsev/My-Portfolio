@@ -1,0 +1,46 @@
+.footer {
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 39px;
+        margin-bottom: 97px;
+    }
+
+    &__logo {
+        padding-right: 114px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 288px;
+        height: 54px;
+
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+        a {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+
+    &__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 237%;
+        letter-spacing: -0.03em;
+        text-align: right;
+        color: rgba(255, 255, 255, 0.7);
+    }
+}
