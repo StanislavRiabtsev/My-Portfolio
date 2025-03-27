@@ -1,0 +1,17 @@
+.contact {
+    margin-top: 168px;
+    padding: 70px 0 100px 0;
+    background-color: rgba(30, 30, 32, 0.5);
+
+    &__wrapper {
+        margin-top: 140px;
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    &__img {
+        width: 120px;
+        height: 128px;
+    }
+}
